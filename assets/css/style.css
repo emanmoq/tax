@@ -158,10 +158,12 @@ font-weight: 500;
     border-top:1px solid #7A7A7A;
     border-bottom: 1px solid #7A7A7A;
     margin-top:20px; 
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    width:100%;
 }
 .SimplifiedTotalAmountTable td{
     padding:5px 0;
+
 }
 .SimplifiedQR{
     width:35%;
