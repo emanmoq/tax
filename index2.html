@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="taxInvoiceBody">
+        <div class="container">
+            <div class="row">
+                <div class="taxInvoice">
+                    <div class="titleSimplified">
+                        <h4 class="TaxinvocieTitle">فاتورة ضريبية مبسطة </h4>
+                        <h4 class="TaxinvocieTitle"> Simplified Tax Invocie </h4>
+                    </div>
+                    <div class=" taxInvocieHeader clearfix">
+
+                        <table class="invoicenumber SimplifiedinvoicenumberTable">
+                            <tr>
+                                <td width="30%">Invoice Number</td>
+                                <td width="20%" class="text-left">100</td>
+                                <td width="30%" class="text-right">100</td>
+                                <td width="20%" class="text-right">رقم الفاتورة</td>
+
+                            </tr>
+                        </table>
+                        <table class="invoicenumber invoiceDate SimplifiedinvoicenumberTable">
+                            <tr>
+                                <td width="30%">Invoice issue date</td>
+                                <td width="20%" class="text-left">25/4/2022</td>
+                                <td width="30%" class="text-right">25/4/2022</td>
+                                <td width="20%" class="text-right"> تاريخ اصدار الفاتورة </td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+
+                    <table class="invoiceTable  Simplifiedservice">
+                        <thead>
+
+                            <tr class="serviceDescriptionTR">
+                                <th class="text-center" width="25%">Nature of goods or services
+                                    <p>تفاصيل السلع او الخدمات</p>
+                                </th>
+                                <th width="25%" class="text-center">Unit Price <p>سعر الوحدة</p>
+                                </th>
+                                <th width="25%" class="text-center"> Quantity <p> الكمية</p>
+                                </th>
+
+                                <th class="text-center" class="" width="25%">Item Subtotal <p>(Including VAT)</p>
+                                    <p>المجموع (شامل ضريبة القيمة المضافة)</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ITEM A -السلعة أ</td>
+                                <td class="text-right">
+                                    200.00 SAR
+                                </td>
+                                <td class="text-right">1 </td>
+                                <td class="text-right">230.00 SAR</td>
+                            </tr>
+                            <tr>
+                                <td>ITEM B -السلعة ب</td>
+                                <td class="text-right">
+                                    200.00 SAR
+                                </td>
+                                <td class="text-right">1 </td>
+
+                                <td class="text-right">230.00 SAR</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <table class=" TotalAmountTable SimplifiedTotalAmountTable">
+
+                        <tbody>
+                            <tr>
+                                <td width="25%"> Totla taxable Amount (Encluding VAT)</td>
+                                <td width="50%">
+                                    الاجمالي الخاضع للضريبة(غير شامل ضريبة القيمة المضافة)
+                                </td>
+                                <td class="text-right" width="25%">900.00 SAR</td>
+
+                            </tr>
+                            <tr>
+                                <td width="25%">total Vat</td>
+                                <td width="50%">
+                                    مجموع ضريبة القيمة المضافة
+                                </td>
+                                <td class="text-right" width="25%">135.00 SAR</td>
+
+                            </tr>
+                            <tr>
+                                <td width="25%"> Total Amount Due</td>
+                                <td width="50%">
+                                    اجمالي المبلغ المستحق </td>
+                                <td class="text-right" width="25%">1035.00 SAR</td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class=" SimplifiedQR">
+                        <img src="assets/images/qrCode.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

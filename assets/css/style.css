@@ -125,6 +125,9 @@ background-color: #aeaeae;
 .serviceDescriptionTR{
     background-color: #989797;
 }
+.Simplifiedservice tbody tr td,.Simplifiedservice tbody tr{
+border:0
+}
 .clearfix{
     overflow: auto;
 }
@@ -133,59 +136,37 @@ background-color: #aeaeae;
     display: table;
     clear: both;
 }
-.jawainvoice{
-    overflow: auto;
+.titleSimplified{
+    padding-bottom:5px;
+    border-bottom: 2px solid #7A7A7A;
 }
-.invoiceTotal ul {
-    list-style-type: none;
-}
-.invoiceTotal ul li:first-child{
-    padding-bottom: 16px;
-}
-.invoiceTotal ul li{
-    width:100%;
 
-    margin-bottom:25px;
-    padding-left:15px;
+.SimplifiedinvoicenumberTable{
+    width:100%;
 }
-.invoiceTotal ul li:first-child{
-    border-bottom: 1px solid #DBDBDB;
-}
-.invoiceTotal ul li span:last-child{
-    float:right
-}
-.invoiceTotalTitle span{
-    color:#18355C;
-    font-weight: 500;
-    font-size: 1em;;
-}
-.invoiceNote{
-padding:30px 0;
-    margin-top:66px;
-    border-top: 1px solid #DBDBDB;
-    border-bottom: 1px solid #DBDBDB;
-}
-.invoiceNote p{
-    color:#7A7A7A;
+.SimplifiedinvoicenumberTable.invoicenumber tr td{
+    border:0;
 } 
-.invoiceNote  h4{
- margin-bottom: 19px;
+.SimplifiedinvoicenumberTable.invoicenumber tr{
+border:0
 }
-.invoiceTotalDetails .invoiceDetailsTitle{
-    font-size: 1em;;
-    font-weight: 700;
+.SimplifiedinvoicenumberTable.invoicenumber.invoicenumber tr td{
+font-size: 1em;
+font-weight: 500;
 }
-.invoiceTotalFooter p{
-    margin:0;
-    color:#7A7A7A
+.SimplifiedTotalAmountTable{
+    border-top:1px solid #7A7A7A;
+    border-bottom: 1px solid #7A7A7A;
+    margin-top:20px; 
+    margin-bottom: 20px;;
 }
-.invoiceTotalFooter  p:last-child{
-    font-weight: 500;
-    font-size: .98em;
+.SimplifiedTotalAmountTable td{
+    padding:5px 0;
 }
-.invoiceTotal ul li:last-child{
-    margin-bottom: 0;
-    padding-bottom: 0;
+.SimplifiedQR{
+    width:35%;
+    margin:auto;
+    
 }
 @media (min-width:767px) and (max-width:1300px){
     body{
